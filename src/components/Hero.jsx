@@ -9,8 +9,8 @@ const Hero = () => {
   return (
     <div className="bg-background1 background-image-1 h-[100vh] ">
       <div className=" flex justify-center">
-        <div className="hidden md:block">
-          <ul className="flex flex-row mt-[200px] items-center gap-[30px] text-xl text-white mr-14">
+        <div className="block">
+          <ul className="flex flex-wrap mt-[10%] justify-center items-center gap-[30px] text-xl text-white mr-14">
             <li>
               <Link to="/drench">
                 <Card image={drenchImage}>Drench Game</Card>
